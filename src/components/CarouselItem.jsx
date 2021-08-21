@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/styles/components/CarouselItem.css';
+import '../assets/styles/components/CarouselItem.scss';
 import playIcon from '../assets/statics/play-icon.png';
 import plusIcon from '../assets/statics/plus-icon.png';
 

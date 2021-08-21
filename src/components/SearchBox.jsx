@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/styles/components/SearchBox.css';
+import '../assets/styles/components/SearchBox.scss';
 
 const SearchBox = () => (
     <section className="main">

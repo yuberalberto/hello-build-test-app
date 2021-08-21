@@ -5,7 +5,7 @@ import CategoryTitle from '../components/CategoryTitle';
 import Carousel from '../components/Carousel';
 import CarouselItem from '../components/CarouselItem';
 import Footer from '../components/Footer';
-import '../assets/styles/App.css';
+import '../assets/styles/App.scss';
 
 const App = () => {
   return (
