@@ -12,7 +12,15 @@ const App = () => {
     <div className="App">
       <Header/>
       <SearchBox/>
-      <CategoryTitle>
+      <CategoryTitle title='Mi lista'>
+        <Carousel>
+          <CarouselItem/>
+          <CarouselItem/>
+          <CarouselItem/>
+          <CarouselItem/>
+        </Carousel>
+      </CategoryTitle >
+      <CategoryTitle title='Tendencias'>
         <Carousel>
           <CarouselItem/>
           <CarouselItem/>
@@ -20,15 +28,7 @@ const App = () => {
           <CarouselItem/>
         </Carousel>
       </CategoryTitle>
-      <CategoryTitle>
-        <Carousel>
-          <CarouselItem/>
-          <CarouselItem/>
-          <CarouselItem/>
-          <CarouselItem/>
-        </Carousel>
-      </CategoryTitle>
-      <CategoryTitle>
+      <CategoryTitle title='Originales de PlatziVideo'>
         <Carousel>
           <CarouselItem/>
           <CarouselItem/>
